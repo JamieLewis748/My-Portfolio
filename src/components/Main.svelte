@@ -63,9 +63,37 @@
             <p>Watch the video</p>
         </a>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
-            <Step step={steps[0]} />
-            <Step step={steps[1]} />
-            <Step step={steps[2]} />
+            <Step step={steps[0]}>
+                <p>
+                    Northcoders news is a social news platform created as part
+                    of my Northcoders bootcamp using <strong
+                        class="text-violet-400"
+                        >ReactJS, Node.js, Express.js + PostgreSQL!</strong
+                    >It allows for users to post articles, and like and comment
+                    other peoples articles.
+                </p>
+            </Step>
+            <Step step={steps[1]}>
+                <p>
+                    Game Master is a <strong class="text-violet-400"
+                        >React Native, Node.js, Express.js, MongoDB, Firebase
+                        and socket.io</strong
+                    > app which was created as part of a project team during the
+                    Northcoders bootcamp. It allows a user to create and search for
+                    gaming events. It includes a chat feature, and a levelling system
+                    as a reward for attending or hosting events.
+                </p>
+            </Step>
+
+            <Step step={steps[2]}>
+                <p>
+                    FitTracker is a fitness excersizes app built using<strong
+                        class="text-violet-400"
+                        >React, Node.js, MaterialUI, RapidAPI</strong
+                    >
+                </p>
+            </Step>
         </div>
     </section>
+    <section id="about">Hey</section>
 </main>
