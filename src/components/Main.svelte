@@ -2,9 +2,9 @@
     import Step from "./Step.svelte";
 
     let steps = [
-        { name: "Northcoders News", icon: "fa-solid fa-cart-shopping" },
-        { name: "Game Master", icon: "fa-solid fa-list-check" },
-        { name: "Workout App", icon: "fa-solid fa-diagram-project" },
+        { name: "Northcoders News", icon: "fa-solid fa-newspaper" },
+        { name: "Game Master", icon: "fa-solid fa-dice" },
+        { name: "Workout App", icon: "fa-solid fa-dumbbell" },
     ];
 </script>
 
@@ -63,9 +63,9 @@
             <p>Watch the video</p>
         </a>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
-            <Step step={steps(0)} />
-            <Step step={steps(1)} />
-            <Step step={steps(2)} />
+            <Step step={steps[0]} />
+            <Step step={steps[1]} />
+            <Step step={steps[2]} />
         </div>
     </section>
 </main>
