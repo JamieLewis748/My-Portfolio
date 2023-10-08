@@ -2,24 +2,28 @@
     import Step from "./Step.svelte";
 
     let steps = [
-        { name: "Northcoders News", icon: "fa-solid fa-newspaper" },
+        {
+            name: "Northcoders News",
+            icon: "fa-solid fa-newspaper",
+            href: "https://topictrend.netlify.app",
+        },
         { name: "Game Master", icon: "fa-solid fa-dice" },
         { name: "Workout App", icon: "fa-solid fa-dumbbell" },
     ];
 
     let benefits = [
         {
-            name: "A fast learning developer",
+            name: "a fast learning developer",
             description:
                 "I began my journey with C, mastering its fundamentals and discovering the thrill of problem-solving in programming. During my Northcoders bootcamp, I honed my skills in JavaScript for building backend APIs and ventured into frontend frameworks like React. I'm fueled by a passion for continuous learning and always eager to embrace new technologies.",
         },
         {
-            name: "A problem solver",
+            name: "a problem solver",
             description:
                 "My journey in project management has cultivated my passion for problem solving. Through managing diverse projects, I've developed a knack for approaching challenges systematically and finding innovative solutions. Now, as a developer, I apply these skills to create efficient and elegant coding solutions, ensuring optimal outcomes.",
         },
         {
-            name: "An exellent communicator",
+            name: "an exellent communicator",
             description:
                 "My hospitality and project management background emphasizes my commitment to effective communication. Whether managing teams or projects, I've honed skills in articulating ideas and fostering teamwork. As a developer, I leverage these strengths to work collaboratively and ensure project success.",
         },
@@ -35,14 +39,13 @@
             class="flex flex-col lg:justify-center text-center lg:text=left gap-6 md:gap-8 lg:gap-10"
         >
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-                Hi I'm <span class="poppins text-violet-400">Jamie</span> Lewis
+                Hi! I'm <span class="poppins text-violet-400">Jamie</span> Lewis
                 <br />Full Stack
                 <span class="poppins text-violet-400">Developer</span>
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
-                My <span class="text-violet-400">favourite tech</span> includes JavaScript
-                (NEXT.JS or SvelteKit), TailwindCSS, Node.js + Express.js & PostgreSQL
-                or Firebase/Firestore!
+                My <span class="text-violet-400">favourite tech</span> includes JavaScript,
+                React, TailwindCSS, Node.js, Express.js & PostgreSQL or Firebase/Firestore!
             </p>
             <a
                 href="https://www.linkedin.com/in/jamie-lewis-42b376b4"
@@ -86,7 +89,7 @@
                     Northcoders news is a social news platform created as part
                     of my Northcoders bootcamp using <strong
                         class="text-violet-400"
-                        >ReactJS, Node.js, Express.js + PostgreSQL!</strong
+                        >ReactJS, Node.js, Express.js and PostgreSQL!</strong
                     >It allows for users to post articles, and like and comment
                     other peoples articles.
                 </p>
