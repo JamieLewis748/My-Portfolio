@@ -8,7 +8,7 @@
             href: "https://topictrend.netlify.app",
         },
         { name: "Game Master", icon: "fa-solid fa-dice" },
-        { name: "Workout App", icon: "fa-solid fa-dumbbell" },
+        { name: "FitTracker", icon: "fa-solid fa-dumbbell" },
     ];
 
     let benefits = [

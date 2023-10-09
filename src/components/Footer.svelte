@@ -25,7 +25,7 @@
         <p>
             <b class="pr-2">LinkedIn</b>
             <a
-                href="www.linkedin.com/in/jamielewis748"
+                href="https://www.linkedin.com/in/jamie-lewis-42b376b4"
                 class="text-violet-400"
                 target="_blank"
             >
